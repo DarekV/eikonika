@@ -1,0 +1,39 @@
+.header-logo {
+  width: 130px;
+  margin-top: 40px;
+  color: #151515;
+}
+
+.header-nav {
+  height: 100%;
+  display: flex;
+  align-items: end;
+}
+
+.header-nav-ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.header-nav-a {
+  font-family: area-normal, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  text-decoration: none;
+  color: #151515;
+}
+
+.header-nav-a-reservation {
+  color: #fdc609;
+}
+
+.header-line {
+  width: calc(100% + 60px);
+  height: 1px;
+  background-color: #151515;
+  margin-top: 30px;
+}
