@@ -1,5 +1,6 @@
 .footer {
   background-color: #151515;
+  margin-top: 100px;
   padding: 40px 0 30px;
   color: white;
 }
@@ -34,4 +35,15 @@
 .footer-link-a {
   text-decoration: none;
   margin-top: 10px;
+}
+
+.footer-logo {
+  width: 130px;
+}
+
+.footer-sponsor {
+  width: 100%;
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
 }

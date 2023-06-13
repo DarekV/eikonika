@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="43.6px" viewBox="0 0 118 43.6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>eikon_simple</title>
+    <defs>
+        <polygon id="path-1" points="0 0 23.4 0 23.4 26.7 0 26.7"></polygon>
+        <polygon id="path-3" points="0 43.6 118 43.6 118 0 0 0"></polygon>
+        <polygon id="path-5" points="0 43.6 118 43.6 118 0 0 0"></polygon>
+        <polygon id="path-7" points="0 43.6 118 43.6 118 0 0 0"></polygon>
+        <polygon id="path-9" points="0 43.6 118 43.6 118 0 0 0"></polygon>
+        <polygon id="path-11" points="0 43.6 118 43.6 118 0 0 0"></polygon>
+        <polygon id="path-13" points="0 43.6 118 43.6 118 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Medium" transform="translate(-1005.000000, -3687.000000)">
+            <g id="Group-3" transform="translate(0.000000, 3371.000000)">
+                <g id="eikon_simple" transform="translate(1005.000000, 316.000000)">
+                    <g id="Fill-1-Clipped" transform="translate(0.000000, 11.315068)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="path-1_00000042001445507911045480000000188827111244874632_"></g>
+                        <path d="M17.9,10.7 C17.9,7.2 15.5,4.9 12,4.9 C8.6,4.9 6,6.9 6,10.7 L17.9,10.7 Z M12.1,0 C18.5,0 23.5,5 23.5,11.4 C23.5,12.3 23.5,13.4 23.2,15.1 L5.8,15.1 C5.8,18.7 7.6,21.7 12.2,21.7 C15.5,21.7 16.7,20.2 17.4,18.4 L23.2,18.4 C22.4,22.8 18.5,26.7 12.2,26.7 C4,26.7 0,20.2 0,13.3 C0,5.7 4.4,0 12.1,0 L12.1,0 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                    <g id="Fill-4-Clipped">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="path-3_00000150085872863131780960000007474121170675010490_"></g>
+                        <path d="M29.3,37.2 L35.4,37.2 L35.4,12.5 L29.3,12.5 L29.3,37.2 L29.3,37.2 Z M32.3,0 C34.6,0 36.4,1.7 36.4,3.9 C36.4,6 34.6,7.7 32.3,7.7 C30.1,7.7 28.3,6 28.3,3.9 C28.3,1.7 30.1,0 32.3,0 L32.3,0 Z" id="Fill-4" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                    </g>
+                    <g id="Fill-6-Clipped">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="path-3_00000013881412803445256650000004712554305429514122_"></g>
+                        <polygon id="Fill-6" fill="#FFFFFF" mask="url(#mask-6)" points="41.2 37.2 41.2 0 47.1 0 47.1 23.4 56.5 12.4 63.8 12.4 53.3 24.8 63.8 37.2 56.5 37.2 47.1 26.3 47.1 37.2"></polygon>
+                    </g>
+                    <g id="Fill-7-Clipped">
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <g id="path-3_00000062878665275670434170000011894802918630732977_"></g>
+                        <path d="M75.9,32.7 C80.5,32.7 83.6,29 83.6,24.6 C83.6,20.2 80.5,16.5 75.9,16.5 C71.3,16.5 68.3,20.2 68.3,24.6 C68.3,29 71.3,32.7 75.9,32.7 M75.9,11.3 C84.2,11.3 89.7,17.4 89.7,24.6 C89.7,31.8 84.2,38 75.9,38 C67.6,38 62.2,31.9 62.2,24.7 C62.2,17.5 67.7,11.3 75.9,11.3" id="Fill-7" fill="#FFFFFF" mask="url(#mask-8)"></path>
+                    </g>
+                    <g id="Fill-8-Clipped">
+                        <mask id="mask-10" fill="white">
+                            <use xlink:href="#path-9"></use>
+                        </mask>
+                        <g id="path-3_00000146462141249995907690000000775152237751439009_"></g>
+                        <path d="M92.9,37.2 L92.9,12 L98.8,12 L98.8,15.5 C100.4,12.7 103.3,11.3 107.1,11.3 C110.8,11.3 113.2,12.6 114.7,14.7 C116,16.6 116.3,18.7 116.3,22.2 L116.3,37.2 L110.4,37.2 L110.4,24.2 C110.4,19.9 109.1,16.6 104.9,16.6 C100.8,16.6 98.8,19.9 98.8,24.2 L98.8,37.2 L92.9,37.2 Z" id="Fill-8" fill="#FFFFFF" mask="url(#mask-10)"></path>
+                    </g>
+                    <g id="Fill-9-Clipped">
+                        <mask id="mask-12" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <g id="path-3_00000179617424586344932120000007865450818516403332_"></g>
+                        <polygon id="Fill-9" fill="#FFFFFF" mask="url(#mask-12)" points="52.1 41.2 0.8 41.2 0.8 43.6 53.3 43.6"></polygon>
+                    </g>
+                    <g id="Fill-10-Clipped">
+                        <mask id="mask-14" fill="white">
+                            <use xlink:href="#path-13"></use>
+                        </mask>
+                        <g id="path-3_00000039814805741734663330000000799068742066793146_"></g>
+                        <polygon id="Fill-10" fill="#FFFFFF" mask="url(#mask-14)" points="54.2 41.2 55.4 43.6 118 43.6 118 41.2"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
