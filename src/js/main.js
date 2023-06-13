@@ -70,7 +70,7 @@ function previousItem() {
   setActiveItem(newIndex);
 }
 
-setInterval(nextItem, 10000);
+setInterval(nextItem, 6000);
 
 const bandContainer = document.querySelector(".band-container");
 const band = document.querySelector(".band");

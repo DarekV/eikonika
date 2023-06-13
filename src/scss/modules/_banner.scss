@@ -28,11 +28,11 @@
 }
 
 .banner-h1:nth-of-type(2) {
-  margin-left: 196px;
+  margin-left: 190px;
 }
 
 .banner-h1:nth-of-type(4) {
-  margin-left: 390px;
+  margin-left: 115px;
 }
 
 .banner-img {
@@ -44,10 +44,11 @@
 }
 
 .banner-img-litle {
-  background-image: url("../img/exemple.webp");
+  background-image: url("../img/banner.webp");
   width: 176px;
   height: 412px;
-  background-position: 200%;
+  background-position: 20% 31%;
+  background-size: 319%;
   box-shadow: 2px 5px 4px 0 rgba(0, 0, 0, 0.14),
     inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
   &:hover .banner-img-litle-hover {
@@ -55,6 +56,8 @@
   }
   @media (min-width: 1400px) {
     width: 230px;
+    background-position: 19% 39%;
+    background-size: 318%;
   }
 }
 
@@ -66,10 +69,11 @@
 }
 
 .banner-img-big {
-  background-image: url("../img/exemple.webp");
+  background-image: url("../img/banner.webp");
   width: 263px;
   height: 489px;
-  background-position: 200%;
+  background-position: 90% -33px;
+  background-size: 230%;
   margin-left: 30px;
   box-shadow: 2px 5px 4px 0 rgba(0, 0, 0, 0.14),
     inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
@@ -78,6 +82,8 @@
   }
   @media (min-width: 1400px) {
     width: 330px;
+    background-position: 85% -93px;
+    background-size: 230%;
   }
 }
 
