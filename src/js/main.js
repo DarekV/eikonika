@@ -1,4 +1,5 @@
 const carouselContainer = document.querySelector(".carousel-container");
+const carouselItems = Array.from(document.querySelectorAll(".carousel-item"));
 const paginationItems = Array.from(
   document.querySelectorAll(".carousel-pagination-item")
 );
@@ -13,6 +14,22 @@ let activeIndex = 0;
 
 function setActiveItem(index) {
   carouselContainer.style.transform = `translateX(-${index * 100}%)`;
+
+  carouselItems.forEach((item, i) => {
+    if (i === index) {
+      item.classList.add("active");
+    } else {
+      item.classList.remove("active");
+    }
+  });
+
+  paginationItems.forEach((item, i) => {
+    if (i === index) {
+      item.classList.add("active");
+    } else {
+      item.classList.remove("active");
+    }
+  });
 
   paginationContent.forEach((item, i) => {
     if (i === index) {
@@ -52,4 +69,26 @@ function previousItem() {
   setActiveItem(newIndex);
 }
 
-// setInterval(nextItem, 3000);
+setInterval(nextItem, 10000);
+
+const bandContainer = document.querySelector(".band-container");
+const band = document.querySelector(".band");
+
+const bandWidth = band.offsetWidth;
+const containerWidth = bandContainer.offsetWidth;
+
+function resetBandPosition() {
+  band.style.transform = "translateX(0%)";
+}
+
+function startScrolling() {
+  band.style.animation = `scroll ${bandWidth / 50}s linear infinite`;
+}
+
+function stopScrolling() {
+  band.style.animation = "none";
+}
+
+bandContainer.addEventListener("mouseenter", stopScrolling);
+bandContainer.addEventListener("mouseleave", startScrolling);
+band.addEventListener("animationend", resetBandPosition);

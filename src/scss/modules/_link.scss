@@ -1,0 +1,38 @@
+.link-h2 {
+  font-size: 60px;
+  margin-top: 70px;
+}
+
+.link-line {
+  width: calc(100% + 60px);
+  height: 1px;
+  background-color: #151515;
+}
+
+.link-img {
+  width: 100%;
+}
+
+.link-arrow {
+  font-size: 50px;
+  color: #6978ae;
+}
+
+.link-article-arrow {
+  display: flex;
+  align-items: center;
+}
+
+.link-button-container {
+  margin-bottom: 75px;
+}
+
+.link-button {
+  right: 0;
+  top: 30px;
+}
+
+.link-p {
+  font-size: 20px;
+  margin-top: 25px;
+}
