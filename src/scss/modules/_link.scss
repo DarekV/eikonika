@@ -11,11 +11,16 @@
 
 .link-img {
   width: 100%;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.32);
 }
 
 .link-arrow {
   font-size: 50px;
   color: #6978ae;
+  transition: 0.3s;
+  &:hover {
+    color: #fdc609;
+  }
 }
 
 .link-article-arrow {

@@ -11,9 +11,10 @@ const paginationContentArrow = Array.from(
 );
 
 let activeIndex = 0;
+const itemWidth = carouselItems[0].offsetWidth + 15;
 
 function setActiveItem(index) {
-  carouselContainer.style.transform = `translateX(-${index * 100}%)`;
+  carouselContainer.style.transform = `translateX(-${index * itemWidth}px)`;
 
   carouselItems.forEach((item, i) => {
     if (i === index) {

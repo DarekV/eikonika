@@ -25,10 +25,17 @@
   font-size: 16px;
   text-decoration: none;
   color: #151515;
+  transition: 0.1s;
+  &:hover {
+    color: #fdc609;
+  }
 }
 
 .header-nav-a-reservation {
   color: #fdc609;
+  &:hover {
+    color: #6978ae;
+  }
 }
 
 .header-line {
