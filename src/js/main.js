@@ -70,26 +70,12 @@ function previousItem() {
   setActiveItem(newIndex);
 }
 
-setInterval(nextItem, 6000);
+setInterval(nextItem, 10000);
 
-const bandContainer = document.querySelector(".band-container");
-const band = document.querySelector(".band");
+const accordionHeaders = document.querySelectorAll(".accordion-item");
 
-const bandWidth = band.offsetWidth;
-const containerWidth = bandContainer.offsetWidth;
-
-function resetBandPosition() {
-  band.style.transform = "translateX(0%)";
-}
-
-function startScrolling() {
-  band.style.animation = `scroll ${bandWidth / 50}s linear infinite`;
-}
-
-function stopScrolling() {
-  band.style.animation = "none";
-}
-
-bandContainer.addEventListener("mouseenter", stopScrolling);
-bandContainer.addEventListener("mouseleave", startScrolling);
-band.addEventListener("animationend", resetBandPosition);
+accordionHeaders.forEach((header) => {
+  header.addEventListener("click", function () {
+    this.classList.toggle("active");
+  });
+});
