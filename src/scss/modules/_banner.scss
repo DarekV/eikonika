@@ -4,14 +4,14 @@
 
 .banner-container {
   position: relative;
-  height: 489px;
+  height: 640px;
 }
 
 .banner-text {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 38px;
+  margin-top: 75px;
   z-index: 10;
   pointer-events: none;
 }
@@ -45,9 +45,9 @@
 
 .banner-img-litle {
   background-image: url("../img/banner.webp");
-  width: 176px;
-  height: 412px;
-  background-position: 20% 31%;
+  width: 193px;
+  height: 500px;
+  background-position: 20% 91%;
   background-size: 319%;
   box-shadow: 2px 5px 4px 0 rgba(0, 0, 0, 0.14),
     inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
@@ -56,7 +56,7 @@
   }
   @media (min-width: 1400px) {
     width: 230px;
-    background-position: 19% 39%;
+    background-position: 19% 63%;
     background-size: 318%;
   }
 }
@@ -71,7 +71,7 @@
 .banner-img-big {
   background-image: url("../img/banner.webp");
   width: 263px;
-  height: 489px;
+  height: 640px;
   background-position: 90% -33px;
   background-size: 230%;
   margin-left: 30px;
