@@ -16,8 +16,22 @@
 }
 
 .description-img {
+  background-image: url("../img/eikon.jpeg");
+  background-position: center;
+  background-size: cover;
   width: 100%;
   height: 250px;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  &:hover .description-img-hover {
+    transform: translateX(100%);
+  }
+}
+
+.description-img-hover {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in-out;
   object-fit: cover;
 }
