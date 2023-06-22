@@ -29,10 +29,22 @@
 
 .banner-h1:nth-of-type(2) {
   margin-left: 190px;
+  @media (max-width: 1400px) {
+    margin-left: 144px;
+  }
+  @media (max-width: 1200px) {
+    margin-left: 143px;
+  }
 }
 
 .banner-h1:nth-of-type(4) {
   margin-left: 115px;
+  @media (max-width: 1400px) {
+    margin-left: 52px;
+  }
+  @media (max-width: 1200px) {
+    margin-left: 134px;
+  }
 }
 
 .banner-img {
